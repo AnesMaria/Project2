@@ -14,7 +14,7 @@ from sqlalchemy import create_engine
 
 app = Flask(__name__)
 
-def tokenize(text):nn
+def tokenize(text)
     tokens = word_tokenize(text)
     lemmatizer = WordNetLemmatizer()
 
@@ -27,10 +27,10 @@ def tokenize(text):nn
 
 # load data
 engine = create_engine('sqlite:///../data/YourDatabaseName.db')
-df = pd.read_sql_table('YourTableName', engine)
+df = pd.read_sql_table('Cleaned_data', engine)
 
 # load model
-model = joblib.load("../models/your_model_name.pkl")
+model = joblib.load("../models/Classifier_1.pkl")
 
 
 # index webpage displays cool visuals and receives user input text for model
