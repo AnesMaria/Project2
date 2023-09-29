@@ -21,5 +21,5 @@ Utilizing a Python script named train_classifier.py, a machine learning workflow
         3. Flask Web App:
 A pre-structured Flask web application is developped, which can be activated by using the run.py script. 
 
-        4. GitHub Repository Link:
+        4. GitHub Repository Link: https://github.com/AnesMaria/Project2
 
